@@ -1,8 +1,31 @@
-# React + Vite
+# TaskEase 📋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskEase is a sleek, user-friendly task manager app designed to simplify your daily productivity. Built with React and styled using Tailwind CSS, TaskEase offers a lightweight and seamless task management experience with data persistence via LocalStorage. It's hosted on Vercel for blazing-fast performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 🌟
+
+- **Add Tasks:** Effortlessly create tasks with a single click.
+- **Mark as Complete:** Strike off tasks as you complete them.
+- **Persistent Storage:** Tasks are saved in your browser using LocalStorage.
+- **Responsive Design:** Optimized for both desktop and mobile views using Tailwind CSS.
+
+---
+
+## Tech Stack 🛠️
+
+- **Frontend:** React
+- **Styling:** Tailwind CSS
+- **Storage:** LocalStorage
+- **Deployment:** Vercel
+
+---
+
+## Installation 🚀
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/taskease.git
+   cd taskease
+   ```
