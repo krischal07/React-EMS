@@ -6,10 +6,26 @@ TaskEase is a sleek, user-friendly task manager app designed to simplify your da
 
 ## Features 🌟
 
+- **Login System:** Users can log in to manage their personal task list, with data fetched from LocalStorage.
 - **Add Tasks:** Effortlessly create tasks with a single click.
 - **Mark as Complete:** Strike off tasks as you complete them.
 - **Persistent Storage:** Tasks are saved in your browser using LocalStorage.
-- **Responsive Design:** Optimized for both desktop and mobile views using Tailwind CSS.
+
+---
+
+## Demo Login Credentials 🔑
+
+To make it easier for users to explore the app, use the following credentials:
+
+### Admin Login:
+
+- **Email:** admin@example.com
+- **Password:** 123
+
+### Employee Login:
+
+- **Email:** e@e.com
+- **Password:** 123
 
 ---
 

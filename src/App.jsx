@@ -15,29 +15,6 @@ const App = () => {
   const [loggedInUserData, setLoggedInUserData] = useState(null);
 
   const authData = useContext(AuthContext);
-  // console.log("Authdata", authData);
-  // console.log("Auth data edmin", authData.adminData);
-  // console.log("Auth data emp", authData.empData);
-
-  // useEffect(() => {
-  //   if (authData) {
-  //     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
-  //     if (loggedInUser) {
-  //       setUser(loggedInUser.role);
-  //       // console.log("Set USer is", setUser);
-  //     }
-  //   }
-  // }, [authData]);
-
-  // console.log("Find function", authData.empData.find("eemployee1@example.com"));
-
-  // console.log("HEllo");
-
-  // console.log(
-  //   "This is emp data",
-  //   authData.empData.find((e) => email === e.email && e.password === password)
-  // );
-  // console.log(authdas);
 
   useEffect(() => {
     const loggedInUser = localStorage.getItem("loggedInUser");

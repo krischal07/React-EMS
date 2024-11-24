@@ -16,8 +16,9 @@ const Login = ({ handleLogin }) => {
   //   console.log(handleLogin);
 
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      <div className=" border-2 rounded-md border-emerald-600 p-20">
+    <div className="flex h-screen w-screen items-center justify-center flex-col">
+      <h1 className="text-emerald-500 text-2xl font-bold">Login</h1>
+      <div className=" border-2 rounded-md border-emerald-600 p-20 mt-5">
         <form
           onSubmit={(e) => {
             submitHandler(e);
@@ -44,7 +45,7 @@ const Login = ({ handleLogin }) => {
             }}
           />
           <button className="bg-emerald-500 w-full mt-5 rounded-3xl h-12 text-white font-semibold text-xl">
-            Log in
+            Enter
           </button>
         </form>
       </div>
