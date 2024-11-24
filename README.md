@@ -45,3 +45,17 @@ To make it easier for users to explore the app, use the following credentials:
    git clone https://github.com/yourusername/taskease.git
    cd taskease
    ```
+
+---
+
+## Deployment 🌍
+
+TaskEase is deployed on Vercel. You can access the live app [here](https://react-ems-sage.vercel.app/).
+
+---
+
+## Screenshots
+
+[App Screenshot](Images/Login.png)
+[App Screenshot](Images/employeeDashboard.png.png)
+[App Screenshot](Images/adminDashboard.png.png)
