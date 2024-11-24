@@ -56,6 +56,6 @@ TaskEase is deployed on Vercel. You can access the live app [here](https://react
 
 ## Screenshots
 
-[App Screenshot](Images/Login.png)
-[App Screenshot](Images/employeeDashboard.png)
-[App Screenshot](Images/adminDashboard.png)
+![Login Page](Images/Login.png)
+![Employee Dashboard](Images/employeeDashboard.png)
+![Admin Dashboard](Images/adminDashboard.png)
